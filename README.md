@@ -6,5 +6,5 @@ An example that will cause a build failure with node js
 
 
 #### Step to make the build pass
-1. First `npm install`, this will install mocha and chai for you
-2. 
+1. Edit `\test\util.spec.js` expect to `expect(util.add_up(2,3)).to.be.equal(5);`
+2. Your are done!

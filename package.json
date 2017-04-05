@@ -1,0 +1,23 @@
+{
+  "name": "travis-broken-example-node-js",
+  "version": "1.0.0",
+  "description": "travis broken example with node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moonhint/travis-broken-example.git"
+  },
+  "author": "Antoni <email.to.antoni@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moonhint/travis-broken-example/issues"
+  },
+  "homepage": "https://github.com/Moonhint/travis-broken-example#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
